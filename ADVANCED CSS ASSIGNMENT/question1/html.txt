@@ -1,0 +1,26 @@
+Var() Function in css:-
+The var() function is used to insert the value of a CSS variable.
+CSS variables have access to the DOM, which means that you can create variables with local or global scope, change the variables with JavaScript, and change the variables based on media queries.
+
+A good way to use CSS variables is when it comes to the colors of your design. Instead of copy and paste the same colors over and over again, you can place them in variables.
+
+Purpose of using Var() function :-
+
+1. Custom Property Definition:
+CSS variables are also known as custom properties.
+They are defined using the -- prefix followed by a name, for example, --main-color.
+
+2. :root Selector:
+Custom properties are often declared in the :root selector, representing the highest-level parent element (typically the <html> element).
+This ensures a global scope for the variable, making it accessible throughout the stylesheet.
+
+3.Value Assignment:
+Values are assigned to variables during declaration. For instance, --main-color: #3498db;.
+
+4.var() Function:
+The var() function is used to reference the value of a custom property.
+Syntax: var(--main-color) retrieves the value of the --main-color variable.
+
+5.Reuse and Consistency:
+CSS variables enable the reuse of values, promoting consistency in design.
+Modifications to a variable update all instances where it's used, enhancing maintainability.
